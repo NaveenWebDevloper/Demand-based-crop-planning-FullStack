@@ -1,0 +1,50 @@
+
+#details-btn{
+    margin-left: 3rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-weight: bold;}
+#details-btn:hover{color:rgb(221, 15, 19);}
+#admin-table {
+  width: 50%;
+  margin:2rem auto;
+  border-collapse: separate;
+  border-spacing: 8px;
+  background-color: aliceblue;}
+td, th {
+  padding: 10px;
+  border: 1px solid #b3fefd;
+  white-space: nowrap;
+  text-align: center;}
+#approve-btn{cursor: pointer;}
+#approve-btn:hover{background-color:aqua;}
+#event-catogeries {
+  width: 90%;
+  margin: 3rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;  
+  padding-top: 1rem;}
+.card-box {
+  flex: 1 1 250px;  
+  max-width: 240px;
+  min-height: 200px;
+  background-color: rgb(219, 219, 219);
+  border: 2px solid rgb(150, 191, 245);
+  text-align: center;
+  padding: 1rem;
+  transition: 0.3s ease;
+  border-radius: 8px;
+}
+.tab-h3{text-align: center;}
+.card-box:hover {transform: translateY(-10px) scale(1.05);}
+#catogeries-head{padding-top: 2rem;}
+#random-words{padding: 1rem 1rem;}
+.catogeries-btn{padding: 0.7rem 4rem;font-weight: bold;border-radius: 20px;}
+.catogeries-btn2{padding: 0.7rem 3.6rem;font-weight: bold;border-radius: 20px;}
+.catogeries-btn4{  padding: 0.7rem 3rem;font-weight: bold;border-radius: 20px;}
+.catogeries-btn:hover{background-color: #b3fefd;}
+.catogeries-btn2:hover{background-color: #b3fefd;}
+.catogeries-btn4:hover{background-color: #b3fefd;}
